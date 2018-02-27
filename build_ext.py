@@ -6,7 +6,7 @@ import shutil
 from os.path import dirname, basename
 
 if sys.version_info[0] != 3:
-	print("Fuck you. Use python 3.")
+	print("Not compatible with python 2")
 	os.exit(1)
 
 if '-v' in sys.argv:
