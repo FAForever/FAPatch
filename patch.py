@@ -10,7 +10,7 @@ def pwrite(fd, data, offset):
 	os.lseek(fd, pos, os.SEEK_SET)
 
 if sys.version_info[0] != 3:
-	print("Fuck you. Use python 3.")
+	print("Python 2 is not supported")
 	os.exit(1)
 
 from argparse import ArgumentParser

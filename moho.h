@@ -83,9 +83,9 @@ struct lua_state
 struct LuaState
 {
 	lua_state* _lua_state;
-	void* fuckknows1;
-	void* knowsfuck2;
-	void* fnows3kuck;
+	void* unknown1;
+	void* unknown2;
+	void* unknown3;
 	void* important1;
 
 };
@@ -503,7 +503,7 @@ struct CClientBase // : IClient
 
 		Actually, a shitty bitvector
 	*/
-	struct NoFuckingClue
+	struct Unknown
 	{
 		int set_base; // integer_base >> 5 (bits in dword)
 		int unknown2;
@@ -541,9 +541,9 @@ struct CClientBase // : IClient
 	char _pad2[2];
 	list mEjectRequests; // <struct{ IClient* mRequester; int mAfterBeat;}>
 
-	void* onlyJesusKnows;
+	void* unknown;
 	// at 0xD0
-	void* secrectlyProtectedUnderInternationalLawAndTheIlluminati;
+	void* uknown;
 };
 
 struct CNetUDPConnetor // : INetConnector
