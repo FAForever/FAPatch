@@ -41,9 +41,8 @@ def silly_hand_coded_sector_patch(file):
 
 def parseCommandLine():
 	parser = ArgumentParser(description='Forged Alliance Patcher')
-	parser.add_argument('-c','--c-code','--I-like-this-robust-argument-parser',
-		'--although-it-is-quite-tedious',action='store_true',help='Compile the c patch version instead.')
-	parser.add_argument('output_file',nargs='?',help='Optional filename to place the patched version at.')
+	parser.add_argument('-c','--c-code', action='store_true', help='Compile the c patch version instead.')
+	parser.add_argument('output_file', nargs='?', help='Optional filename to place the patched version at.')
 	return parser.parse_args()
 
 def nasm_compile(filename, filename_out = None):
