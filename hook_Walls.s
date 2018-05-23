@@ -1,4 +1,4 @@
-; HOOK LoadSavedGame ROffset = 0x00465EC2
+; HOOK WallSelection ROffset = 0x00465EC2
 bits 32
 
 org 0x00865EC2
