@@ -93,7 +93,9 @@ def main():
 		os.makedirs('build/')
 
 	hooks = ['hook_LoadSavedGame.s',
-			 'hook_ArmyGetHandicap.s']#,
+			 'hook_ArmyGetHandicap.s',
+			 'hook_Walls.s' ]
+			 #,
 			 #'hook_ValidateFocusArmyRequest.s']
 
 	for hook in hooks:
